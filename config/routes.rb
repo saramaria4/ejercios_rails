@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'datos/guardar'
+  post 'datos/guardar'
+
   get 'pages/paginax'
 
   root 'pages#paginax'
